@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <h1>Agenda de Contatos</h1>
+    <form id="contact-form">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" required>
+      <label for="phone">Telefone:</label>
+      <input type="text" id="phone" required>
+      <button type="submit">Cadastrar</button>
+    </form>
+    <table id="contacts-table">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Telefone</th>
+        </tr>
+      </thead>
+      <tbody id="contacts-list">
+      </tbody>
+    </table>
+    <script src="script.js"></script>
+    <script src="./main.js"></script>
+    <footer>
+        <p>Exercício "Agenda" | Dev Full Stack - Módulo 8 EBAC</p>
+        <p>Uriel Fred.</p>
+    </footer>
+</body>
+</html>
